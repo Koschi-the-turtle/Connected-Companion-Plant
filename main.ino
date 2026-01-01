@@ -15,8 +15,8 @@ enum PlantState {
 PlantState currentState;
 PlantState previousState;
 
-#define DRY_THRESHOLD 50
-#define DROWNING_THRESHOLD 500
+#define DRY_THRESHOLD 200
+#define DROWNING_THRESHOLD 650
 #define DARK_THRESHOLD 850
 
 LiquidCrystal_I2C lcd (0x27, 16, 2);
